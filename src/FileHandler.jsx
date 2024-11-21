@@ -10,7 +10,7 @@ function FileHandler() {
   const [filter, setFilter] = useState([]);
   const [filteredData, setFilteredData] = useState({});
 
-  const backendUrl = 'http://localhost:3000/bfhl'; 
+  const backendUrl = 'https://bajaj-backend-vzqf.onrender.com/bfhl'; 
 
   const handleSubmit = async () => {
     try {
